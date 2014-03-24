@@ -6,7 +6,12 @@
     "license": "GNU GPLv3+",
     "version": "0.2.3",
     "authors": [
-		{
+    	{
+            "name": "Denis Sobolev",
+            "email": "dns.sobol@gmail.com",
+            "role": "Author"
+        },
+	{
             "name": "Artur Petrov",
             "email": "admin@gtn18.ru",
             "role": "Developer"
