@@ -2,7 +2,7 @@
     "name": "roundcube/chbox",
     "type": "roundcube-plugin",
     "description": "This chbox plugin adds the convenient functionality of making single and/or multiple selections from a number of emails in Roundcube message list.",
-    "keywords": ["mail","chbox","checkbox","maillist"],
+    "keywords": ["mail","chbox","checkbox","maillist","чекбокс","выбор","почта","список"],
     "license": "GNU GPLv3+",
     "version": "0.2.3",
     "authors": [
