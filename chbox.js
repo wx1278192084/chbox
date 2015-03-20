@@ -80,7 +80,7 @@ if (window.rcmail) {
   rcmail.addEventListener('listupdate','chbox_menu');
   rcmail.addEventListener('insertrow', function(evt) {
     var row = evt.row
-    if (found = typeof(rcmail.env.coltypes.chbox) != "undefined") {
+    if ((found = $.inArray('chbox', rcmail.env.coltypes)) >= 0) {
       rcmail.set_env('chbox_col', found);
     }
     // set eventhandler to checkbox selection
