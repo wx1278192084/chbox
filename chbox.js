@@ -101,7 +101,7 @@ if (window.rcmail) {
 
 $(document).ready(function(){
   chbox_menu();
-  var li = '<label><input type="checkbox" name="list_col[]" value="chbox" id="cols_chbox" /><span>'+rcmail.get_label('chbox.chbox')+'</span></label>';
+  var li = '<label><input type="checkbox" name="list_col[]" value="chbox" id="cols_chbox" /> <span>'+rcmail.get_label('chbox.chbox')+'</span></label>';
   $("#listmenu fieldset ul input#cols_threads").parent().after(li);
   $("#listoptions fieldset ul.proplist:first li:first-child").after('<li>'+li+'</li>');
 });
