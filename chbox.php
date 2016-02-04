@@ -40,8 +40,8 @@ class chbox extends rcube_plugin {
       $uid = $args['messages'][$i]->uid;
     if(!empty($uid))
       $tmp = $args['messages'][$i]->list_cols['chbox'];
-      $args['messages'][$i]->list_cols['chbox'] = '<span id="msgicnrcmrowMTExOTg" class="msgicon" title=""></span>
-        <input type="checkbox" name="rcmselect'.$uid.'" id="rcmselect'.$uid.'" />';
+      $args['messages'][$i]->list_cols['chbox'] = '<span id="msgicnrcmrowMTExOTg" class="msgicon" title=""></span>'
+         . '<input type="checkbox" name="rcmselect'.$uid.'" id="rcmselect'.$uid.'" />';
     }
     return $args;
   }
