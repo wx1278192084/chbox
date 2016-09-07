@@ -23,3 +23,8 @@
 {
    background-color: #0186ba;
 }
+
+.records-table tbody .chbox
+{
+   text-overflow: clip;
+}
